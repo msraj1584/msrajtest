@@ -367,6 +367,26 @@ input,textarea {
     background-color: #DFFF5E;
 }
 
+.skillDiv{
+    border: solid 1px #000000;
+}
+.divSkills .divContent .languages , .divSkills .divContent  .Tools{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skillItem{
+    border: solid 1px #000000;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
 @media(max-width:1400px) {
     .hero-image img {
         width: 80%;
