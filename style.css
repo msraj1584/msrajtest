@@ -292,9 +292,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;       
- 
-
-}
+ }
 .divContact{
     min-height: 60vh;
 }
@@ -369,16 +367,30 @@ input,textarea {
 
 .skillDiv{
     border: solid 1px #000000;
+    min-width: 300px;
+    max-width: 800px;
 }
-.divSkills .divContent .languages , .divSkills .divContent  .Tools{
+
+.divSkills .divContent {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
+    align-content: stretch;
+    
 }
-.skillItem{
-    border: solid 1px #000000;
-    padding: 0px 10px;
+.SkillHead{
+    text-align: center;
+    border: 1px #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-style: none none solid none;
 }
+.SkillBody{
+    padding: 2%;
+    min-height: 100px;
+}
+
 
 
 
@@ -481,6 +493,11 @@ input,textarea {
 
     .divContact{
         min-height: 100vh;
+    }
+
+    .divSkills .divContent {
+        flex-direction: column;
+        row-gap: 2rem;
     }
 }
 
