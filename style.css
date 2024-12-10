@@ -292,6 +292,11 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;       
+ 
+
+}
+.divContact{
+    min-height: 60vh;
 }
 .contactSocial{
     text-align: center;
