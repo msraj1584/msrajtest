@@ -368,7 +368,7 @@ input,textarea {
 .ProjectDiv{
     border: solid 1px #000000;
     min-width: 300px;
-    max-width: 800px;
+    max-width: 800px;   
 }
 
 .divProjects .divContent {
@@ -377,9 +377,9 @@ input,textarea {
     align-items: center;
     flex-wrap: wrap;
     row-gap: 1rem;
-    column-gap: 1rem;
-    
+    column-gap: 1rem;    
 }
+
 .ProjectHead{
     text-align: center;
     border: 1px #000000;
@@ -389,7 +389,12 @@ input,textarea {
 }
 .ProjectBody{
     padding: 2%;
-    min-height: 100px;
+    min-width: 300px;
+    max-width: 300px; 
+    min-height: 150px;
+    max-height: 150px;
+    text-align: justify;
+  text-justify: inter-word;
 }
 .ProjectLink{
     display: flex;
