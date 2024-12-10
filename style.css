@@ -365,34 +365,45 @@ input,textarea {
     background-color: #DFFF5E;
 }
 
-.skillDiv{
+.ProjectDiv{
     border: solid 1px #000000;
     min-width: 300px;
     max-width: 800px;
 }
 
-.divSkills .divContent {
+.divProjects .divContent {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    align-content: stretch;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;
     
 }
-.SkillHead{
+.ProjectHead{
     text-align: center;
     border: 1px #000000;
     font-size: 1.5rem;
     font-weight: 600;
     border-style: none none solid none;
 }
-.SkillBody{
+.ProjectBody{
     padding: 2%;
     min-height: 100px;
 }
+.ProjectLink{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px #000000;
+    border-style: solid none none none;
+    height: 25px;
+}
 
-
-
+.divPLine{
+    border-left: 1px solid #000;
+    height: inherit;
+}
 
 
 
@@ -495,7 +506,7 @@ input,textarea {
         min-height: 100vh;
     }
 
-    .divSkills .divContent {
+    .divProjects .divContent {
         flex-direction: column;
         row-gap: 2rem;
     }
