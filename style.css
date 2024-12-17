@@ -471,8 +471,10 @@ input,textarea {
   --inlinePadding: 1em;
   --boxPadding: 0.5em;
   display: grid;
-  padding: var(--boxPadding) calc(var(--inlinePadding) + var(--arrowClipSize))
-    var(--boxPadding) calc(var(--inlinePadding) + var(--labelOffset));
+  /* padding: var(--boxPadding) calc(var(--inlinePadding) + var(--arrowClipSize))
+    var(--boxPadding) calc(var(--inlinePadding) + var(--labelOffset)); */
+    padding: var(--boxPadding) ;
+    
   grid-template-areas:
     "icon title"
     "icon text";
