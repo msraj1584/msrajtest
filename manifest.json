@@ -3,12 +3,12 @@
     "short_name": "M S RAJ",
     "icons": [
       {
-        "src": "assets/img/ico.png",
+        "src": "assets/img/hero_img.png",
         "sizes": "192x192",
         "type": "image/png"
       },
 	  {
-        "src": "assets/img/ico.png",
+        "src": "assets/img/hero_img.png",
         "sizes": "200x200",
         "type": "image/png"
       }
