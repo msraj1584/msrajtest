@@ -27,6 +27,7 @@ body {
     font-size: 25px;
     font-weight: 900;
     background-color: #DFFF5E;
+    padding: 5px;
 }
 nav {
     height: 100px;
@@ -144,7 +145,7 @@ button {
 .hero-image {
     padding-top: 80px;
     width: 55%;
-    background-image: url(./image/Group_4.svg);
+    background-image: url(/Assets/img/bg_grid.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,12 +168,7 @@ button {
     width: 180px;
     left: -10%;
 }
-.ri-terminal-line{
-    background-color: #DFFF5E;
-}
-.ri-medal-2-line{
-    background-color: #DFFF5E;
-}
+
 .hero-btn {
     display: flex;
     justify-content: flex-start;
@@ -306,6 +302,9 @@ button {
 .divContact{
     min-height: 60vh;
 }
+.contactDetails{
+    font-size: 1.5rem;
+}
 .contactSocial{
     text-align: center;
     font-size: 1.5rem;
@@ -373,6 +372,9 @@ input,textarea {
 
 .lblrep{
     font-size: 1rem;
+    background-color: #DFFF5E;
+}
+.ibg{
     background-color: #DFFF5E;
 }
 
@@ -517,7 +519,7 @@ input,textarea {
 .olcards li .content .title {
   grid-area: title;
   font-size: 1.25em;
-  /* font-weight: 700; */
+  font-weight: 700;
 }
 .olcards li .content .text {
   grid-area: text;

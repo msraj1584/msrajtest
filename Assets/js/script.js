@@ -32,5 +32,3 @@ document.querySelectorAll('.scroll-link').forEach(link => {
       }
     });
   });
-
-AOS.init();
